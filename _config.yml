@@ -1,0 +1,36 @@
+# Site settings
+title: Daniel Girón Comín
+description: 'Daniel Giron Personal Page'
+url: 'https://daniel.giron.me'
+baseurl: ''
+profilepic: '/images/danigiron4.png'
+bkimage: '/images/20200710_190708.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: '471403dfbd.js'
+
+author:
+  name: 'Daniel Girón'
+  email: daniel@giron.me
+  twitter_username: Dani_Giron
+#  facebook_username: joshgerdes
+#  github_username:  noriginad
+  linkedin_username:  danigiron
+#  meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
